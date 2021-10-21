@@ -5,6 +5,8 @@
 
 using namespace std;
 
+template<typename T>
+
 int main()
 {
 	List<string> clist;
@@ -15,8 +17,10 @@ int main()
 	while (fin >> item) {
 		clist.insert_end(item);
 	}
+	fin.close();
+	
+	cout << clist.size() << endl;
 
-	cin >> item;
 
 	return 0;
 }
