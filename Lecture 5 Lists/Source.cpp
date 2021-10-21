@@ -6,6 +6,10 @@
 using namespace std;
 
 template<typename T>
+int coutFreq(List<T> linkedList, T key)
+{
+	int count = 0;
+}
 
 int main()
 {
